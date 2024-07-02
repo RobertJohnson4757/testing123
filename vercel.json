@@ -1,0 +1,7 @@
+{
+    "buildCommand": "elm make src/Main.elm --output=dist/index.html",
+    "outputDirectory": "dist",
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
